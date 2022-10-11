@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="F:/SQA/RizkiMaulana/src/main/java/UjianDua/Account.java"><classes/></test><test verbose="2" preserve-order="true" name="F:/SQA/RizkiMaulana/src/test/java/UjianDua/MainAccount.java"><classes><class name="UjianDua.MainAccount"><methods><include name="insert"/><include name="deposit"/></methods></class></classes></test></suite>
