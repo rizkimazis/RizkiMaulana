@@ -26,11 +26,12 @@ public class Account {
 		}
 	}
 
-	public void checkBalance() {
-		System.out.println("Balance is: " + amount);
+	public void checkBalance(double hasil) {System.out.println("Balance is: " + amount);
 	}
 
-	public void display() {
-		System.out.println(acc_no + " " + name + " " + amount);
+	public void display(int acc_no, String name, double hasil) {
+		System.out.println(this.acc_no + " " + this.name + " " + amount);
 	}
+
+
 }

@@ -1,31 +1,18 @@
 package UjianDua;
 
-public class Main {
-    public class MainAccount {
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
-        Account account;
+public class MainAccount {
 
-        Account account;
-
-
-        @BeforeMethod
-        public void setUp(){
-            account = new Account();
-        }
-
-        @Test
-        public void insert(){
-            account.insert();
-            account.name(Rizki Maulana);
-            account.amount(1000);
-        }
-
-        @Test
-        public void deposit(){
-            employee.deposit(20000");
-            employee.name(Rizki Maulana);
-            employee.amount(10);
-
-        }
-
+    @Test
+    @Parameters({"a","n","amt"})
+    public void testInsert(int a,String n, double amt){
+        MainAccount mainAccount = new MainAccount();
+        int actual = mainAccount.testInsert(a, n, amt);
+        int expect = 15;
+        Assert.assertEquals(actual, expect);
     }
+
