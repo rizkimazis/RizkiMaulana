@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26e11fd1-ebcc-4ebd-b7a8-df2bbeb6d20b" name="Changes" comment="Tugas Minggu 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UjianDua/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UjianDua/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UjianDua/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UjianDua/MainAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UjianDua/MainAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UjianDua/NomorSatu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UjianDua/NomorSatu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,11 +46,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UjianDua" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="UjianDua" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NomorSatu">
+  <component name="RunManager" selected="TestNG.MainAccount.testCheckBalance">
     <configuration name="NomorSatu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UjianDua.NomorSatu" />
       <module name="RizkiMaulana" />
@@ -68,24 +78,6 @@
       <option name="PACKAGE_NAME" value="UjianDua" />
       <option name="MAIN_CLASS_NAME" value="UjianDua.MainAccount" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainAccount.CheckBalance" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RizkiMaulana" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UjianDua.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UjianDua" />
-      <option name="MAIN_CLASS_NAME" value="UjianDua.MainAccount" />
-      <option name="METHOD_NAME" value="CheckBalance" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,13 +120,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainAccount.testCheckBalance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RizkiMaulana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UjianDua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UjianDua" />
+      <option name="MAIN_CLASS_NAME" value="UjianDua.MainAccount" />
+      <option name="METHOD_NAME" value="testCheckBalance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NomorSatu" />
+        <item itemvalue="TestNG.MainAccount.testCheckBalance" />
         <item itemvalue="TestNG.MainAccount" />
+        <item itemvalue="Application.NomorSatu" />
         <item itemvalue="TestNG.MainAccount.insert" />
         <item itemvalue="TestNG.MainAccount.display" />
-        <item itemvalue="TestNG.MainAccount.CheckBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665475004020</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tugas Minggu 2">
+      <created>1666850534022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666850534022</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tugas Minggu 2">
+      <created>1666857043335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666857043335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
